@@ -10,7 +10,7 @@ body {
 }
 
 aside {
-    height: 500px;
+    height: 1100px;
     float: left;
     width: 55px; 
     background-color: rgb(255, 255, 255); 
@@ -21,9 +21,15 @@ main {
     background-color: rgb(220, 222, 223);
     width: calc((100% - 55px));
     float: left;
+    height: 1100px;
+}
+h2 {
+    padding: 25px;
+    background-color: rgb(220, 222, 223);
+    width: calc((100%));
+    float: left;
     height: 65px;
 }
-
 p {
     font-size: 5;
     margin: 10px;
@@ -31,22 +37,46 @@ p {
     float: left;
     height: 300px;
     width: calc((100% - 55px) / 3.10);
+    
    
 }
 
-p:nth-child(1) {
-    margin-top: 50px;
+p:first-child {
     background-color: rgb(11, 97, 93);
     color: white;
     box-shadow: 0px 5px 10px 5px rgb(15, 127, 122);
 }
 
 p:nth-child(2) {
-    margin-top: 50px;
     box-shadow: 0px 5px 10px 5px rgb(206, 221, 93);
 }
 
 
 p:nth-child(3) {
-    margin-top: 33px;
+    box-shadow: 0px 5px 10px 5px rgb(215, 140, 191);
+
+}
+
+p:nth-child(4) {
+    box-shadow: 0px 5px 10px 5px rgb(173, 130, 195);
+
+}
+
+p:nth-child(5) {
+    box-shadow: 0px 5px 10px 5px rgb(124, 133, 237);
+
+}
+
+p:nth-child(6) {
+    box-shadow: 0px 5px 10px 5px rgb(192, 191, 102);
+
+}
+
+p:nth-child(7) {
+    box-shadow: 0px 5px 10px 5px rgb(206, 221, 93);
+
+}
+p:nth-child(8) {
+    box-shadow: 0px 5px 10px 5px rgb(206, 221, 93);
+
 }
