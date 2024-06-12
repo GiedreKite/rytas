@@ -7,21 +7,30 @@ body {
     display: inline-block;
     width: 100%;
     margin: 0;
+    min-height: 100vh;
 }
 
 aside {
-    height: 1100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    min-height: 100vh;
     float: left;
     width: 55px; 
     background-color: rgb(255, 255, 255); 
+    border-top-left-radius: 10px;
 }
 
 main {
-    padding: 25px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
     background-color: rgb(220, 222, 223);
-    width: calc((100% - 55px));
+    width: calc((100% - 105px));
     float: left;
-    height: 1100px;
+    min-height: 100vh;
 }
 h2 {
     padding: 25px;
@@ -32,13 +41,12 @@ h2 {
 }
 p {
     font-size: 5;
-    margin: 10px;
     background-color: rgb(243, 249, 206);
     color: black;
     float: left;
     height: 300px;
-    width: calc((100% - 55px) / 3.10);
-    box-shadow: 0px 5px 10px 5px rgb(15, 127, 122);
+    width: calc((33.333% - 50px));
+    box-shadow: 0px 20px 50px -10px rgb(15, 127, 122);
     border-radius: 10px;
    
 }
@@ -46,39 +54,39 @@ p {
 p:nth-child(2) {
     background-color: rgb(11, 97, 93);
     color: white;
-    box-shadow: 0px 5px 10px 5px rgb(15, 127, 122);
+    box-shadow: 0px 20px 50px -10px rgb(15, 127, 122);
 }
 
 p:nth-child(3) {
-    box-shadow: 0px 5px 10px 5px rgb(206, 221, 93);
+    box-shadow: 0px 20px 50px -10px rgb(206, 221, 93);
 }
 
 
 p:nth-child(4) {
-    box-shadow: 0px 5px 10px 5px rgb(215, 140, 191);
+    box-shadow: 0px 20px 50px -10px rgb(215, 140, 191);
 
 }
 
 p:nth-child(5) {
-    box-shadow: 0px 5px 10px 5px rgb(173, 130, 195);
+    box-shadow: 0px 20px 50px -10px rgb(173, 130, 195);
 
 }
 
 p:nth-child(6) {
-    box-shadow: 0px 5px 10px 5px rgb(124, 133, 237);
+    box-shadow: 0px 20px 50px -10px rgb(124, 133, 237);
 
 }
 
 p:nth-child(7) {
-    box-shadow: 0px 5px 10px 5px rgb(192, 191, 102);
+    box-shadow: 0px 20px 50px -10px rgb(124, 133, 237);
 
 }
 
 p:nth-child(8) {
-    box-shadow: 0px 5px 10px 5px rgb(206, 221, 93);
+box-shadow: 0px 20px 50px -10px rgb(168, 185, 107);
 
 }
 p:nth-child(9) {
-    box-shadow: 0px 5px 10px 5px rgb(206, 221, 93);
+box-shadow: 0px 20px 50px -10px rgb(168, 185, 107);
 
 }
