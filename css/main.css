@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: rgb(128, 176, 208);
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+aside {
+    height: 500px;
+    float: left;
+    width: 55px; 
+    background-color: rgb(255, 255, 255); 
+}
+
+main {
+    margin: 10 px;
+    padding: 20px;
+    background-color: rgb(220, 222, 223);
+    width: calc((100% - 55px));
+    float: left;
+    height: 40px;
+}
+
+p {
+    font-size: 5;
+    margin: 10px;
+    background-color: rgb(243, 249, 206);
+    float: right;
+    height: 300px;
+    width: calc((100% - 55px) / 3.5);
+}
+
+p:first {
+    background-color: rgb(11, 97, 93);
+    color: white;
+}
